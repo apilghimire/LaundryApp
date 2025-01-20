@@ -584,7 +584,8 @@ populateLaundryTable();
         String searchTerm = SearchTextField.getText().trim();
 
         if (searchTerm.isEmpty()) {
-            throw new IllegalArgumentException("Search term cannot be empty.");
+            sortDashBoardTableByUserName();
+            return;
         }
 
         // Call the BinarySearch class to search the userList

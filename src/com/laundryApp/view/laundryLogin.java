@@ -52,7 +52,6 @@ public class laundryLogin extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(1280, 810));
-        setPreferredSize(new java.awt.Dimension(1280, 810));
         setSize(new java.awt.Dimension(1280, 810));
 
         logoLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/laundryApp/view/resources/spotwashe (4).png"))); // NOI18N

@@ -12,15 +12,11 @@ public class Admin extends User {
         this.userPassword = userPassword;
     }
 
-    public String getUserPassword() {
-        return userPassword;
-    }
-
     public void setUserPassword(String userPassword) {
         this.userPassword = userPassword;
     }
 
     public boolean checkPassword(String userPassword) {
-        return userPassword.equals(getUserPassword());
+        return userPassword.equals(this.userPassword);
     }
 }
