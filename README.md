@@ -121,18 +121,3 @@ Responsive Design:
 
 Make the GUI more user-friendly with improved layouts.
 This project effectively manages a laundry business's core operations and demonstrates key programming concepts like GUI design, sorting algorithms, and search techniques.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT can make mistakes. Ch
